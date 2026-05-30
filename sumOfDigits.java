@@ -13,7 +13,7 @@ public class sumOfDigits {
             sum = sum + digit;
             number = number/10;
         }
-        System.out.println(sum);
+        System.out.println("The sum of digits of a given number : " +sum);
         sc.close();
     }
 }
