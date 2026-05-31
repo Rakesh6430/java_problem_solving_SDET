@@ -4,54 +4,60 @@ A collection of beginner to intermediate Java practice programs designed to stre
 
 ## Overview
 
-This repository contains 25+ Java programs covering fundamental concepts including:
-- Control Flow (if-else, switch statements)
-- Loops (for, while, do-while)
-- Arrays and 2D Arrays
-- String Manipulation
-- Basic Algorithms
+This repository contains Java practice programs covering:
+- Control flow and decision making
+- Loop constructs
+- Array and 2D array operations
+- String manipulation
+- Basic numeric algorithms
 
 ## Programs Included
 
 ### Control Flow
 - **ifElse.java** - If-else conditional statements
-- **switchCase.java** - Switch case implementation
-- **numberComparison.java** - Comparing numbers
+- **switchCase.java** - Switch-case examples
+- **numberComparison.java** - Compare two numbers
 
 ### Loops
 - **forLoop.java** - Basic for loop
 - **forLoop2.java** - For loop variations
 - **forLoop3.java** - For loop with arrays
-- **ForLoop4.java** - For loop practice
-- **forLoop5.java** - Advanced for loop usage
-- **forLoop6.java** - For loop with strings
-- **whileLoop.java** - While loop implementation
-- **doWhileLoop.java** - Do-while loop practice
+- **ForLoop4.java** - Additional for loop practice
+- **forLoop5.java** - For loop with multiple conditions
+- **forLoop6.java** - For loop with string processing
+- **whileLoop.java** - While loop example
+- **doWhileLoop.java** - Do-while loop example
 
 ### Arrays
 - **array.java** - Basic array operations
-- **array2.java** - Array manipulation
+- **array2.java** - Array manipulation and traversal
 - **twoDArray.java** - 2D array operations
 
 ### String Manipulation
 - **stringClass.java** - String class basics
-- **stringCompareTo.java** - String comparison using compareTo()
-- **stringSubstring.java** - Substring operations
-- **reverseString.java** - Reversing strings
-- **palindrome.java** - Palindrome checking
-- **countCharacter.java** - Counting specific characters in strings
-- **countVowels.java** - Counting vowels in strings
-- **duplicateCharacter.java** - Finding duplicate characters
+- **stringCompareTo.java** - String comparison using `compareTo()`
+- **stringSubstring.java** - Substring extraction
+- **reverseString.java** - Reverse a string
+- **palindrome.java** - Check if a string is a palindrome
+- **countCharacter.java** - Count occurrences of a character
+- **countVowels.java** - Count vowels in a string
+- **duplicateCharacter.java** - Find duplicate characters in a string
 
-### Miscellaneous
-- **oddEven.java** - Checking if numbers are odd or even
-- **practiseProblem1.java** - Practice problem solving
+### Numeric Algorithms
+- **countDigits.java** - Count digits in a number
+- **sumOfDigits.java** - Sum digits of a number
+- **palindromeNumber.java** - Check if a number is a palindrome
+- **swapNumber.java** - Swap two numbers without a third variable
+- **oddEven.java** - Determine if a number is odd or even
+
+### Practice Problems
+- **practiseProblem1.java** - Sample practice problem for logic building
 
 ## Prerequisites
 
 - Java Development Kit (JDK) 8 or higher
-- A Java IDE (VS Code with Java Extension Pack, IntelliJ IDEA, Eclipse, etc.)
-- Basic understanding of Java syntax
+- A Java IDE or editor (VS Code, IntelliJ IDEA, Eclipse, etc.)
+- Basic understanding of Java syntax and program structure
 
 ## How to Run
 
@@ -70,41 +76,41 @@ java FileName
 ### Using VS Code
 1. Install the **Extension Pack for Java** (Microsoft)
 2. Open the file you want to run
-3. Click the "Run" button (▶) in the top-right corner or press `Ctrl+F5`
+3. Click the run button (▶) or press `Ctrl+F5`
 
 ### Using an IDE
 1. Open the project in your IDE
-2. Right-click on the file
-3. Select "Run" or similar option
+2. Right-click on the `.java` file
+3. Select **Run**
 
 ## Example Usage
 
-### Reverse String Program
+### Reverse String
 ```bash
 javac reverseString.java
 java reverseString
 # Enter the String: Hello
-# The Reversed String is: olleH
+# Output: olleH
 ```
 
-### Palindrome Checker
+### Palindrome Number
 ```bash
-javac palindrome.java
-java palindrome
-# Enter the Word: racecar
-# The Palindrome Checking: true
+javac palindromeNumber.java
+java palindromeNumber
+# Enter the Number: 1221
+# Output: true
 ```
 
 ## Learning Outcomes
 
-After completing these programs, you will understand:
-- ✅ Java syntax and basic structure
-- ✅ Variables and data types
-- ✅ Control flow statements (if-else, switch)
-- ✅ Loop constructs (for, while, do-while)
-- ✅ Arrays and array operations
-- ✅ String operations and manipulation
-- ✅ Basic problem-solving techniques
+After working through these programs, you will gain familiarity with:
+- Java syntax and program structure
+- Variables, data types, and user input
+- Conditional statements and branching
+- Looping constructs and iteration
+- Array handling and 2D arrays
+- String methods and text manipulation
+- Algorithmic problem solving
 
 ## Project Structure
 
@@ -113,6 +119,7 @@ Java Practice 2/
 ├── array.java
 ├── array2.java
 ├── countCharacter.java
+├── countDigits.java
 ├── countVowels.java
 ├── doWhileLoop.java
 ├── duplicateCharacter.java
@@ -126,41 +133,35 @@ Java Practice 2/
 ├── numberComparison.java
 ├── oddEven.java
 ├── palindrome.java
+├── palindromeNumber.java
 ├── practiseProblem1.java
+├── README.md
 ├── reverseString.java
 ├── stringClass.java
 ├── stringCompareTo.java
 ├── stringSubstring.java
+├── sumOfDigits.java
+├── swapNumber.java
 ├── switchCase.java
 ├── twoDArray.java
-├── whileLoop.java
-└── README.md
+└── whileLoop.java
 ```
 
 ## Tips for Learning
 
-1. **Start Simple** - Begin with basic programs like loops and conditionals
-2. **Understand the Logic** - Don't just memorize; understand why each line works
-3. **Modify & Experiment** - Try changing inputs and logic to see how it affects output
-4. **Test Edge Cases** - Test with various inputs including edge cases
-5. **Add Comments** - Comment your code to explain the logic
-6. **Debug Gradually** - Use print statements or debugger to trace program execution
-
-## Common Concepts Used
-
-- **Scanner class** - Taking user input
-- **Arrays** - Storing multiple values
-- **Loops** - Repeating code blocks
-- **String methods** - toCharArray(), length(), compareTo(), substring()
-- **Conditional statements** - Making decisions in code
+1. Start with simple examples and understand the logic.
+2. Modify programs to explore behavior with different inputs.
+3. Use comments to explain each step.
+4. Test edge cases for more reliable code.
+5. Practice regularly to build confidence.
 
 ## Future Enhancements
 
-- [ ] Add object-oriented programming examples (Classes, Inheritance)
-- [ ] Include exception handling programs
-- [ ] Add collection framework examples (ArrayList, HashMap)
-- [ ] Create practice problems with solutions
-- [ ] Add comments to all programs
+- [ ] Add object-oriented programming examples (classes, inheritance)
+- [ ] Include exception handling demonstrations
+- [ ] Add collection framework examples (`ArrayList`, `HashMap`)
+- [ ] Provide solution notes and sample inputs
+- [ ] Add more problems with clear explanations
 
 ## Author
 
@@ -168,14 +169,8 @@ Self-Learning Java Practice Repository
 
 ## License
 
-This project is open for educational purposes. Feel free to use, modify, and distribute for learning.
-
-## Contributing
-
-Suggestions and improvements are welcome! Feel free to open issues or submit pull requests.
+This project is available for educational use. Feel free to use and modify it for learning.
 
 ---
 
 **Happy Coding! 🚀**
-
-For questions or clarifications, please refer to the individual Java files and their comments.
